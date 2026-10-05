@@ -1,0 +1,22 @@
+{
+  "name": "iq-canvas-core",
+  "version": "0.2.0",
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test tests/*.mjs",
+    "source": "node scripts/source.mjs",
+    "build": "node scripts/build-edge.mjs"
+  },
+  "dependencies": {
+    "@jscad/modeling": "2.13.0",
+    "@jscad/stl-serializer": "2.1.23"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}
